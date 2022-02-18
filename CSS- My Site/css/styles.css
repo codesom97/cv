@@ -36,6 +36,11 @@ p {
 
 a {
   color: #11999E;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #C1F4C5;
 }
 
 hr{
@@ -43,7 +48,7 @@ hr{
   width: 70px;
   border-width: 8px;
   border-color: #AAAAAA;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -59,7 +64,7 @@ hr{
 }
 
 .middle-container {
-
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -106,7 +111,7 @@ hr{
 
 .practice{
   margin: auto auto 5.6rem auto;
-  border-width: medium;
+  width: 40%;
 }
 
 .btn {
@@ -139,7 +144,7 @@ hr{
 .footer-link-1{
   position: relative;
   bottom: 30px;
-  right: 80px;
+
   color: #11999E;
   text-decoration: none;
 }
@@ -154,11 +159,12 @@ hr{
 .footer-link-3{
   position: relative;
   bottom: 30px;
-  left: 80px;
   color: #11999E;
     text-decoration: none;
 }
 
 .copyright{
   color: #EAF6F6;
+  font-size: 0.9rem;
+  padding-top: 10px;
 }
